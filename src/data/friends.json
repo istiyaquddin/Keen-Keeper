@@ -1,7 +1,7 @@
 [
 {
 "id": 1,
-"name": "Arif Hasan",
+"name": "Shakib Hasan",
 "picture": "https://i.ibb.co.com/fZ6Nm2x/image-1.jpg",
 "email": "arif.hasan@gmail.com",
 "days_since_contact": 18,
@@ -16,7 +16,7 @@
 },
 {
 "id": 2,
-"name": "Nusrat Jahan",
+"name": "Jahan Emam",
 "picture": "https://i.ibb.co.com/396q5v2n/image-5.jpg",
 "email": "nusrat.jahan@gmail.com",
 "days_since_contact": 10,
@@ -31,7 +31,7 @@
 },
 {
 "id": 3,
-"name": "Siam Ahmed",
+"name": "Ahmed Reza",
 "picture": "https://i.ibb.co.com/sdGQ2NCW/image-2.jpg",
 "email": "siam.ahmed@gmail.com",
 "days_since_contact": 5,
@@ -61,7 +61,7 @@
 },
 {
 "id": 5,
-"name": "Tanvir Hossain",
+"name": "YAkub Hossain",
 "picture": "https://i.ibb.co.com/JRHT6WgN/image-3.jpg",
 "email": "tanvir.hossain@gmail.com",
 "days_since_contact": 13,
@@ -76,7 +76,7 @@
 },
 {
 "id": 6,
-"name": "Mithila Chowdhury",
+"name": "Rubi Chowdhury",
 "picture": "https://i.ibb.co.com/pjhcnqV5/image-7.jpg",
 "email": "mithila.chy@gmail.com",
 "days_since_contact": 3,
