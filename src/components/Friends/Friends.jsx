@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import React from "react";
 import FriendCard from "../FriendCard/FriendCard";
 import Data from "@/data/friends.json"

@@ -1,3 +1,4 @@
+// import  footer
 import Link from "next/link";
 import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6";
 

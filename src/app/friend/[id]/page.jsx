@@ -1,3 +1,5 @@
+// app
+
 import FriendDetailsBtn from "@/components/FriendDetailsBtn/FriendDetailsBtn";
 import Image from "next/image";
 import data from "@/data/friends.json"
