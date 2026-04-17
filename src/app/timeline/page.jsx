@@ -1,4 +1,5 @@
 "use client";
+import { MdBrokenImage } from "react-icons/md";
 
 import { useContext, useState } from "react";
 import { TimelineContext } from "@/context/TimelineContext";
@@ -48,7 +49,10 @@ export default function TimelinePage() {
       {/* Timeline List */}
       <div className="space-y-4">
         {filteredData.length === 0 && (
-          <p className="text-gray-500">No interactions yet</p>
+          <div className=" h-60 w-full flex justify-center items-center"><div className=" text-gray-300">
+          <MdBrokenImage className="text-9xl" />
+<p className="text-xl text-gray-300 text-center"> No Interaction Yet </p>
+            </div></div>
         )}
 
         {filteredData.map((item) => (
