@@ -32,8 +32,9 @@ const Navbar = () => {
               <NavLinks />
             </ul>
           </div>
-          <Link href="/" className=" font-bold text-xl">
-            KeenKeeper
+          <Link href="/" className="font-semibold text-2xl">
+             <span className="font-extrabold " >Keen</span> 
+             <span className="text-[#1a8862]">Keeper</span>
           </Link>
         </div>
         <div className="navbar-end hidden lg:flex">

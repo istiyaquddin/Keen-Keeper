@@ -1,25 +1,20 @@
 import FriendDetailsBtn from "@/components/FriendDetailsBtn/FriendDetailsBtn";
 import Image from "next/image";
-
+import data from "@/data/friends.json"
 import {
-  FiPhone,
-  FiMessageSquare,
-  FiVideo,
-  FiClock,
+   FiClock,
   FiArchive,
   FiTrash2,
 } from "react-icons/fi";
 
-async function getFriend(id) {
-  const res = await fetch("https://keen-keeper-roan.vercel.app/friends.json");
-  const data = await res.json();
-
+function getFriend(id) {
+ 
   return data.find((f) => f.id === parseInt(id));
 }
 
 export default async function FriendDetails({ params }) {
   const { id } = await params;
-  const friend = await getFriend(id);
+  const friend =  getFriend(id);
   if (!friend) return <p>Friend not found</p>;
 
   return (
@@ -27,14 +22,14 @@ export default async function FriendDetails({ params }) {
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6">
         {/* LEFT PROFILE CARD */}
         <div className="bg-white rounded-2xl p-6 shadow-sm text-center flex flex-col items-center justify-center">
-          <Image
+      
+   <Image
             src={friend.picture}
             alt={friend.name}
             width={80}
             height={80}
-            className="rounded-full mx-auto"
+            className=" size-16 object-cover rounded-full"
           />
-
           <h2 className="text-xl font-semibold mt-4">{friend.name}</h2>
 
           <span className="inline-block mt-2 px-3 py-1 text-xs rounded-full bg-red-500 text-white capitalize">
